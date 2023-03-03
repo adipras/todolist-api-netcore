@@ -11204,11 +11204,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/adipras/Projects/TodolistNg/TodolistNg.csproj",
+      "projectUniqueName": "/Users/adipras/Documents/Netcore/TodolistNg/TodolistNg.csproj",
       "projectName": "TodolistNg",
-      "projectPath": "/Users/adipras/Projects/TodolistNg/TodolistNg.csproj",
+      "projectPath": "/Users/adipras/Documents/Netcore/TodolistNg/TodolistNg.csproj",
       "packagesPath": "/Users/adipras/.nuget/packages/",
-      "outputPath": "/Users/adipras/Projects/TodolistNg/obj/",
+      "outputPath": "/Users/adipras/Documents/Netcore/TodolistNg/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/adipras/.nuget/NuGet/NuGet.Config"

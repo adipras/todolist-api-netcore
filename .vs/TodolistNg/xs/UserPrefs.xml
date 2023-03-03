@@ -1,4 +1,28 @@
 ﻿<Properties StartupConfiguration="{C01D1ECD-E03B-4595-BF6A-30BB0E1EC436}|Default">
-  <MonoDevelop.Ide.ItemProperties.TodolistNg FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/StatusesController.cs">
+    <Files>
+      <File FileName="Controllers/TasksController.cs" />
+      <File FileName="Controllers/TaskTypesController.cs" />
+      <File FileName="Controllers/StatusesController.cs" Line="11" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TodolistNg" expanded="True">
+            <Node name="TodolistNg" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TodolistNg PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

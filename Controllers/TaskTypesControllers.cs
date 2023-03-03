@@ -12,16 +12,16 @@ namespace TodolistNg.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TaskTypesControllers : ControllerBase
+    public class TaskTypesController : ControllerBase
     {
         private readonly DataContext _context;
 
-        public TaskTypesControllers(DataContext context)
+        public TaskTypesController(DataContext context)
         {
             _context = context;
         }
 
-        // GET: api/TaskTypesControllers
+        // GET: api/TaskTypesController
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TaskType>>> GetTaskTypes()
         {
@@ -32,7 +32,7 @@ namespace TodolistNg.Controllers
             return await _context.TaskTypes.ToListAsync();
         }
 
-        // GET: api/TaskTypesControllers/5
+        // GET: api/TaskTypesController/5
         [HttpGet("{id}")]
         public async Task<ActionResult<TaskType>> GetTaskType(int id)
         {
@@ -50,7 +50,7 @@ namespace TodolistNg.Controllers
             return taskType;
         }
 
-        // PUT: api/TaskTypesControllers/5
+        // PUT: api/TaskTypesController/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutTaskType(int id, TaskType taskType)
@@ -81,7 +81,7 @@ namespace TodolistNg.Controllers
             return NoContent();
         }
 
-        // POST: api/TaskTypesControllers
+        // POST: api/TaskTypesController
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<TaskType>> PostTaskType(TaskType taskType)
@@ -96,7 +96,7 @@ namespace TodolistNg.Controllers
             return CreatedAtAction("GetTaskType", new { id = taskType.Id }, taskType);
         }
 
-        // DELETE: api/TaskTypesControllers/5
+        // DELETE: api/TaskTypesController/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTaskType(int id)
         {

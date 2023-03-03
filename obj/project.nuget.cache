@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DFnWFHrgDNpEeVWSqd1wtx0uTRuvvCS0acgM0WwH61bFEOvjl6L+h3FvliMtDKNmZvn3zX6VFnx7NqRSO4YVYg==",
+  "dgSpecHash": "gEdVY7WMOk9tZuv9ecg21yGkt5FuEzMyv8+jI2scQ5cmVbMFY2BJc8Q9H9RR//nKbVS7pxgo7sI5Mc9O90M/sA==",
   "success": true,
-  "projectFilePath": "/Users/adipras/Projects/TodolistNg/TodolistNg.csproj",
+  "projectFilePath": "/Users/adipras/Documents/Netcore/TodolistNg/TodolistNg.csproj",
   "expectedPackageFiles": [
     "/Users/adipras/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/adipras/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
